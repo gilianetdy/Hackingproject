@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 244px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+a {
+    text-decoration:none;
+    color:rgba(0,0,0,0.87);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+#Gmail, #Images, #Menu, #Sign-in {
+  height: 50px;
+  min-width: 200px;
+  margin-left: 10px;
+  margin-right:  10px;
+}
+
+#Menu {
+    color:222;
+    opacity:.55;
+}
+
+#Connexion {
+    color:#fff;
+    border:1px solid #4285f4;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 28px;
+    border-radius: 2px;
+    background:#4285f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+    font-weight: 700;
+    width: 93;
+    background-attachment: scroll;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+p span {
+    color: #1a0dab;
+}  
+#buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    height: 39px;
+    font size :13px;
+    width :460px;
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:rgb(255, 255, 255);
+    background-origin:padding-box;
+    background-size:auto;
+    border-bottom-color:rgb(223, 225, 229);
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-width:1;
+    border-left-color:rgb(223, 225, 229);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(223, 225, 229);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(223, 225, 229);
+    border-top-left-radius:24px;
+    border-top-right-radius:24px;
+    border-top-style:solid;
+    border-top-width:1px;
+    color:rgb(34, 34, 34);
+    display:flex;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    height:44px;
+    width:482px; 
+}  
+
+#google-search-btn, #random-search-btn {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}  
+#french {
+    color:rgba(0, 0, 0, 0.54);
+    display:flex;
+    flex-direction: row;
+    font-family:arial, sans-serif;
+    font-size:14px;
+    height:40px;
+    line-height:40px;
+    padding-left:27px;
+    text-align:left;  
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-width: 400px;
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:rgb(242, 242, 242);
+    background-origin:padding-box;
+    border-top-color:rgb(228, 228, 228);
+    border-top-style:solid;
+    border-top-width:1px;
+} 
+#foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items: inherit;
+    padding: 0px 30px;
+    min-width: 244px;
+    vertical-align: middle;
+    background-attachment:scroll;
+    background-clip:border-box;
+    background-color:rgb(242, 242, 242);
+    background-origin:padding-box;
+    border-top-color:rgb(228, 228, 228);
+    border-top-style:solid;
+    border-top-width:1px;
+    color:rgb(34, 34, 34);
+    font-family:arial, sans-serif;
+    font-size:13.3333px;
+    line-height: 40px;
+
+}
+#publicité, #Entreprise, #A-propos,#howitwork, #infoconso, #policies, #terms, #preferences {
+    height: 50px;
+    min-width: 200px;
+    margin-left: 10px;
+    margin-right:  10px;
+    
+}
